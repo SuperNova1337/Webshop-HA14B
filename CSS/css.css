@@ -4,6 +4,7 @@
 	width:200px;
 	border:solid black 5px;
 	margin:10px 0px 0px 10px;
+	border-radius:25px;
 }
 
 .itemPicture{
@@ -18,7 +19,22 @@
 	width:176px;
 }
 
-.itemTextBox{
+.itemName{
+	height:15px;
+	width:166px;
+	margin-left:10px;
+	padding:5px 5px 0px 5px;
+	border-left:solid black 2px;
+	border-right:solid black 2px;
+}
+.itemName p{
+	margin:0px 0px 0px 0px;
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+}
+
+.itemInfoBox{
 	height:53px;
 	width:166px;
 	margin:0px 0px 0px 10px;
@@ -26,25 +42,22 @@
 	border-left:solid black 2px;
 	border-right:solid black 2px;
 }
-.itemTextBox p{
+.itemInfoBox p{
 	margin:0px;
 	word-break:break-all;
-
 }
+
 
 .itemPrice{
-	height:20px;
-	width:166px;
-	margin-left:10px;
-	padding:0px 5px 0px 5px;
-	border-left:solid black 2px;
-	border-right:solid black 2px;
-
+	float:left;
+	height:46px;
+	width:112px;
 }
 .itemPrice p{
-	margin:0px;
-	font-size:25px;
 	color:red;
+	margin:12px 0px 0px 0px; /* To center text vertically */
+	text-align:center;
+	font-size:25px
 }
 
 .itemButtonContainer{
