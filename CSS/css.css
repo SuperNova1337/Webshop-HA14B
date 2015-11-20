@@ -1,10 +1,14 @@
 
 .itemContainer{
+	background-color:rgb(160,160,160);
 	height:300px;
 	width:200px;
 	border:solid black 5px;
 	margin:10px 0px 0px 10px;
 	border-radius:25px;
+}
+.itemContainer:hover{
+		background-color:rgb(145,145,145);
 }
 
 .itemPicture{
@@ -13,13 +17,16 @@
 	margin:10px 0px 0px 10px;
 	border:solid black 2px;
 	border-bottom:0px;
+	border-radius:20px 20px 0px 0px;
 }
 .itemPicture img{
 	height:150px;
 	width:176px;
+	border-radius:20px 20px 0px 0px;
 }
 
 .itemName{
+	background-color:white;
 	height:15px;
 	width:166px;
 	margin-left:10px;
@@ -35,6 +42,7 @@
 }
 
 .itemInfoBox{
+	background-color:white;
 	height:53px;
 	width:166px;
 	margin:0px 0px 0px 10px;
@@ -49,24 +57,29 @@
 
 
 .itemPrice{
+	background-color:white;
 	float:left;
 	height:46px;
 	width:112px;
+	border-radius:0px 0px 0px 20px;
 }
 .itemPrice p{
 	color:red;
 	margin:12px 0px 0px 0px; /* To center text vertically */
 	text-align:center;
-	font-size:25px
+	font-size:25px;
+	font-weight:bold;
 }
 
 .itemButtonContainer{
+	background-color:white;
 	width:166px;
 	height:46px;
 	margin:0px 0px 0px 10px;
 	padding:0px 5px 0px 5px;
 	border:solid black 2px;
 	border-top:0px;
+	border-radius:0px 0px 20px 20px;
 }
 
 .itemBuyButton{
@@ -76,11 +89,11 @@
 	width:50px;
 	color:white;
 	border:solid black 2px;
-	background-color:lightgreen;
+	background-color:rgb(100,200,100);
 	border-radius:20px;
 }
 .itemBuyButton:hover{
-	background-color:green;
+	background-color:rgb(80,180,80);
 }
 .itemBuyButton :active {
 	color:red;
