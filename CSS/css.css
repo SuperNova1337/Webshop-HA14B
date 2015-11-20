@@ -1,0 +1,49 @@
+
+.itemContainer{
+	height:300px;
+	width:200px;
+	border:solid black 5px;
+	margin:10px 0px 0px 10px;
+}
+
+.itemPicture{
+	height:150px;
+	width:176px;
+	margin:10px 0px 0px 10px;
+	border:solid black 2px;
+}
+
+.itemTextBox{
+	height:50px;
+	width:178px;
+	margin:5px 0px 0px 10px;
+	border:dotted black 1px; /* Ska tas bort sen */
+}
+
+.itemTextBox p{
+	margin:0px;
+}
+
+.itemPrice{
+	height:20px;
+	width:180px;
+	margin-left:10px;
+}
+
+.itemPrice p{
+	margin:0px;
+}
+
+.itemButtonContainer{
+	width:176px;
+	height:42px;
+	margin:5px 0px 0px 10px;
+	border:solid black 2px;
+}
+
+.itemBuyButton{
+	float:right;
+	height:42px;
+	width:50px;
+	background-color:lightgreen;
+}
