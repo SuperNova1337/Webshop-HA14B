@@ -13,6 +13,11 @@
 	border:solid black 2px;
 }
 
+.itemPicture img{
+	height:150px;
+	width:176px;
+}
+
 .itemTextBox{
 	height:50px;
 	width:180px;
