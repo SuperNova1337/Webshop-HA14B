@@ -1,4 +1,3 @@
-
 .itemContainer{
 	background-color:rgb(160,160,160);
 	height:300px;
@@ -6,8 +5,7 @@
 	border:solid black 5px;
 	margin:10px 0px 0px 10px;
 	border-radius:25px;
-}
-.itemContainer:hover{
+}.itemContainer:hover{
 		background-color:rgb(145,145,145);
 }
 
